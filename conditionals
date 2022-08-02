@@ -1,0 +1,26 @@
+#!/bin/bash
+
+shoe_array=(nike adidas "new balance" balley)
+
+ echo ${shoe_array[0]}
+
+ echo ${shoe_array[3]}
+
+ echo ${shoe_array[1]}
+
+Count=1
+
+until [ $COUNT -le 3 ] 
+do
+    echo "Value of count is: $COUNT"
+    COUNT=$(($count + 1))
+done
+
+echo "This is a while loop"
+
+COUNT2=1
+while [ $COUNT -le 3 ]
+do
+    echo "value of count is: $COUNT"
+    COUNT2=$(($COUNT2 + 1))
+done
