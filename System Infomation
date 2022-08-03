@@ -1,0 +1,19 @@
+#1/bin/bash
+
+lshw 
+ubuntu
+cat /proc/cpuinfo | grep "product vendor "physical id" "bus info" width" 
+
+
+lshw 
+ubuntu
+cat /proc/raminfo | grep "description "physical id" size"
+
+lshw 
+ubuntu
+cat /proc/displayadapterinfo | grep "description  product vendor "physical id" "bus info" width clock capabilities configuration resources"
+
+
+lshw 
+ubuntu
+cat /proc/networkadapterinfo | grep "description  product vendor "physical id" "bus info" "logical name" version serial size capacity width clockcapabilities configuration resources"
