@@ -1,0 +1,2 @@
+$Output = Get-EventLog -Logname System -After (Get-Date).AddDays(-1)
+$Output > C:\User\Admin\Desktop\last_24.txt
