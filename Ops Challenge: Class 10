@@ -1,0 +1,5 @@
+Get-Process | Sort-Object -Property cpu -Descending
+Get-Process | Sort-Object -Property id -Descending
+Get-Process | Sort-Object -property ws -Descending | Select-Object -first 5 
+Start-Process -FilePath "C:\Program Files\Internet Explorer\iexplore.exe" http://www.youtube.com/watch?v=6903zFUIxoU
+for ($i = 1; $i -le 10; $1++) {Start-Process -FilePath "C:\Program Files\Internet Explorer\iexplore.exe" http://www.youtube.com/watch?v=6903zFUIxoU }
