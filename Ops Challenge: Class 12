@@ -1,0 +1,2 @@
+$Generate_Network_Report = ipconfig /all > "network_report.txt"
+Select-String -Path "network_report.txt" -Pattern "Ipv4 Address"
